@@ -12,6 +12,12 @@
       
       
       
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -24,6 +30,12 @@
         <content type="html"><![CDATA[<p>本文介绍了hexo的一些基本操作，如果还想获取更多操作，请参考 <a href="https://hexo.io/zh-cn/docs/index.html/" target="_blank" rel="noopener">Hexo</a>,关于hexo markdown的一些语法，可以参考 <a href="https://hyxxsfwy.github.io/2016/01/15/Hexo-Markdown-%E7%AE%80%E6%98%8E%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C/" target="_blank" rel="noopener">Hexo markdown</a>，但是如果童鞋们是前端高手，建议不要入手hexo了，完全可以自己写一个博客的嘛（手动滑稽）</p><pre class="line-numbers language-bash"><code class="language-bash">hexo g<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>hexo generate //生成网站，就是把写的markdown编译成html </p><pre class="line-numbers language-bash"><code class="language-bash">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>hexo deploy //部署网站，就是push到github</p><pre class="line-numbers language-bash"><code class="language-bash">hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>hexo server //网站服务器，可以预览网页</p><pre class="line-numbers language-bash"><code class="language-bash">hexo g -d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>hexo generate -deploy //生成并部署，可选 –debug</p><pre class="line-numbers language-bash"><code class="language-bash">hexo cl<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>hexo clean //清理hexo g后的文件</p><pre class="line-numbers language-bash"><code class="language-bash">hexo new <span class="token string">"文章名"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>//新建文章</p><pre class="line-numbers language-bash"><code class="language-bash">hexo new page <span class="token string">"文件夹名"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>//新建文件夹</p><hr><p>生成的网站根目录在MyHexo\public</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
